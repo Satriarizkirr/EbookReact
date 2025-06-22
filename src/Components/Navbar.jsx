@@ -9,11 +9,10 @@ export default function Navbar() {
       <div className="homepage--texts">
       <h1 className="nav--text">A WORLD IN PAGES</h1>
       <p className="nav--para">
-        Embark on a literary journey where every click reveals a new chapter,
-        and every story awaits its avid reader. Welcome to the world of ebooks,
-        where dreams come alive on every page.
+        Embark on a literary adventure where every click opens a new chapter, and every story is waiting to be explored by its readers.
+Welcome to the world of ebooks, where dreams come true on every page.
       </p>
-      <p className="nav--subpara">Coded with hate, love & pani puri by Nagraj</p>
+      <p className="nav--subpara">Developed by Satria Rizki R</p>
       </div>
       <div className="lottie--container">
         <Lottie animationData={books} />

@@ -19,7 +19,7 @@ html,
 .hero {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(90deg, #091e3c, #000000);
+  background: linear-gradient(90deg, #459e95, #1fac8d);
 }
 .homepage--texts{
   display: flex;
@@ -30,7 +30,7 @@ html,
   font-weight: 700;
   word-spacing: 0.3em;
   display: flex;
-  color: white;
+  color: rgb(19, 18, 18);
   align-items: center;
   max-width: 600px;
   margin: 150px 135px;
@@ -41,14 +41,14 @@ html,
   font-weight: 300;
   font-size: 24px;
   max-width: 600px;
-  color: gray;
+  color: rgb(0, 0, 0);
   align-items: center;
   margin: -140px 135px;
 }
 .nav--subpara{
   margin: 155px 135px;
   max-width: 350px;
-  color: rgb(94, 87, 87);
+  color: rgb(0, 0, 0);
 }
 .lottie--container {
   width: 400px;
@@ -62,7 +62,7 @@ html,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(90deg, #091e3c, #000000);
+  background: linear-gradient(90deg, hwb(175 4% 68%), hwb(178 7% 46%));
   transition: 0.3s;
   padding-top: 20px;
   padding-left: 10%;
@@ -72,7 +72,7 @@ html,
   display: block;
 }
 .website--title {
-  color: #fff;
+  color: #050505;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 28px;
@@ -100,23 +100,23 @@ html,
   font-weight: 400;
 }
 .menu li a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
-  display: block;
+  display: inline-block;
   padding: 10px 15px;
   line-height: 1;
   transition: 0.3s;
   font-weight: 700;
 }
 .menu li a:hover {
-  color: #ea1538;
+  color: #f5f5f5;
   transition: 0.3s;
 }
 .hamburger {
   position: relative;
   width: 30px;
   height: 4px;
-  background: #fff;
+  background: #070707;
   border-radius: 10px;
   cursor: pointer;
   z-index: 2;
@@ -128,7 +128,7 @@ html,
   position: absolute;
   height: 4px;
   right: 0;
-  background: #fff;
+  background: #080808;
   border-radius: 10px;
   transition: 0.3s;
 }
@@ -181,7 +181,7 @@ html,
 .booksbox {
   width: 100%;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: flex-start;
   gap: 5px;
   flex-wrap: wrap;
@@ -195,7 +195,7 @@ html,
   border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
-  height: 420px;
+  height: 440px;
   box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
   -webkit-box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
   -moz-box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
@@ -225,7 +225,7 @@ html,
   font-weight: bold;
 }
 .card--genre {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   text-align: center;
   font-weight: bold;
 }
@@ -243,7 +243,7 @@ html,
 .card--btn:hover {
   background-color: black;
   border: 3px solid black;
-  color: white;
+  color: rgb(235, 232, 232);
   outline: 2px solid transparent;
   box-shadow: none;
 }
@@ -262,7 +262,7 @@ html,
   margin-right: 8px;
 }
 .wordscloud{
-  background-color: #162b32;
+  background-color: #2f9c85;
   background-image: url(./assets/images/bg.png);
   height: 90vh;
   background-repeat: no-repeat;
@@ -327,7 +327,7 @@ html,
   text-decoration: none;
 }
 .footer--name--link:hover{
-  color: #ea1538;
+  color: #000000;
 }
 .footer {
   display: flex;
@@ -686,7 +686,7 @@ textarea {
     top: 0;
     right: -300px;
     background: hsl(0, 0%, 100% /0.1);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(20px);
     width: 210px;
     height: 100%;
     padding-top: 98px;
@@ -697,9 +697,9 @@ textarea {
   .menu li a,
   .menu li a:hover {
     padding: 20px;
-    color: #ea1538;
+    color: #0a0a0a;
     font-size: 24px;
-    box-shadow: 0 1px 0 rgba(225, 225, 225, 0.1) inset;
+    box-shadow: 0 1px 0 rgba(247, 246, 246, 0) inset;
   }
   .lottie--container {
     width: 200px;

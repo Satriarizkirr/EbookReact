@@ -13,44 +13,18 @@ export default function Aboutme() {
       <div className="nagraj--intro--card--container">
         <div className="nagraj--intro--card">
           <div>
-            <img className="nagraj-image" src={pic} alt="Nagraj Tadingi" />
+           <img className="nagraj-image" src={pic} alt="Satria Rizki" />
             <div className="author-info">
-              <p className="nagraj-para">
-                Hello! I&apos;m Nagraj, the creator and curator behind this
-                books website. As an avid reader and lifelong learner, I&apos;ve
-                always found solace, inspiration, and endless possibilities
-                within the pages of books.
+              <p className="satria-rizki-para">
+                Hello! I&apos;m <strong>Satria Rizki</strong>, the creator and manager of this website.
+                As a lifelong learner, I believe that every book holds the power to inspire and broaden our horizons.
                 <br />
                 <br />
-                I have a particular admiration for authors like Andy Weir, whose
-                scientific thrillers take us on thrilling journeys through space
-                and beyond. I also find myself immersed in the intricate worlds
-                crafted by Brandon Sanderson, whose epic fantasy novels are
-                known for their rich characters and intricate magic systems. And
-                when it comes to the enigmatic and thought-provoking, Haruki
-                Murakami&apos;s surreal and introspective works never fail to
-                captivate me.
-                <br />
-                <br />
-                This website is a platform where I aim to share my love for
-                books. My mission is to ignite the joy of reading, foster
-                meaningful conversations, and celebrate the incredible power of
-                storytelling.
+                This website was created as a space to share my love for literacy, spark meaningful conversations, and spread the joy of reading to everyone who visits.
               </p>
               <div className="nagraj--links">
                 <a
-                  href="https://www.goodreads.com/user/show/57097572-thatguywithabook"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={goodreads}
-                    alt="Goodreads"
-                    className="nagraj--social"
-                  />
-                </a>
-                <a
-                  href="https://www.instagram.com/thatguywithabook"
+                  href="https://www.instagram.com/Satriarizkirr"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -60,20 +34,7 @@ export default function Aboutme() {
                     className="nagraj--social"
                   />
                 </a>
-                <a
-                  href="https://thatguywithabook.tumblr.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={tumblr} alt="Tumblr" className="nagraj--social" />
-                </a>
-                <a
-                  href="https://twitter.com/studyingquakes"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={tweets} alt="Twitter" className="nagraj--social" />
-                </a>
+              
               </div>
             </div>
           </div>

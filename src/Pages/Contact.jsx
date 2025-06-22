@@ -149,8 +149,8 @@ export default function Contact() {
       </div>
       <div className="information--card">
         <h2 className="information--card--title">Contact Details</h2>
-        <p className="information--para">E-mail: findnagraj@gmail.com <br /> 
-        Based in India</p>
+        <p className="information--para">E-mail: Rizkirsatria5@gmail.com <br /> 
+        Based in Indonesia</p>
         <div>
           <img src={contact} alt="contact" className="contact--illustration" />
         </div>

@@ -14,7 +14,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="social--icons">
         <a
-          href="https://www.instagram.com/thatguywithabook"
+          href="https://www.instagram.com/satriarizkirr"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -26,7 +26,7 @@ export default function Footer() {
         </a>
         <div className="footer-divider"></div>
         <a 
-          href="https://www.github.com/nagraj05"
+          href="https://www.github.com/satriarizkirr"
           target="_blank"
           rel="noopener noreferrer"
           >
@@ -40,18 +40,11 @@ export default function Footer() {
           >
           <img src={Linkedin} alt="Linkedin" className="social-link linkedin-link" />
         </a>
-        <div className="footer-divider"></div>
-        <a 
-          href="https://www.twitter.com/StudyingQuakes"
-          target="_blank"
-          rel="noopener noreferrer"
-          >
-          <img src={Twitter} alt="Twitter" className="social-link twitter-link" />
-        </a>
+       
       </div>
       <div className="footer-para">
       Coded & developed completely                                                        by{" "}
-        <Link to="/aboutme" className="footer--name--link">Nagraj Tadingi</Link>
+        <Link to="/aboutme" className="footer--name--link">Satria Rizki R</Link>
       </div>
     </footer>
   );

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import tag from "../assets/icons/tag.png";
 
@@ -8,7 +9,7 @@ export default function BookCard(props) {
   }
   return (
     <div className="card">
-      <img src={props.data.img} alt="" className="card--image"/>
+      <img src={props.data.img} alt="" className="card--image" />
       <div>
         <p className="card--title">{props.data.title}</p>
         <p className="card--author">{props.data.author}</p>
@@ -17,10 +18,19 @@ export default function BookCard(props) {
           {props.data.genre}
         </p>
       </div>
-      <button className="card--btn" onClick={handleDownload}>
-        Download
-      </button>
-      <p className="pages--count">{props.data.pages}pages</p>
+
+      <div className="card--actions">
+        {/* Tombol Download tetap sama */}
+        <button className="card--btn" onClick={handleDownload}>
+          Download
+        </button>
+
+        {/* UBAH BAGIAN INI: Hapus <button> di dalam <Link> */}
+        <Link to={`/read/${props.data.value}.epub`} className="card--btn read--btn">
+           Baca Online
+        </Link>
+      </div>
+
     </div>
   );
 }

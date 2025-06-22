@@ -9,8 +9,9 @@ import BooksPage from "./Pages/BooksPage.jsx";
 import Map from "./Pages/Map.jsx";
 import Contact from "./Pages/Contact.jsx";
 import Loader from "./Components/Loader.jsx";
-import Home from "../src/Pages/Home"
+import Home from "../src/Pages/Home";
 import Quotes from "../src/Pages/Quotes";
+import EbookReader from "./Components/EbookReader.jsx"; // <-- 1. TAMBAHKAN IMPORT INI
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -38,6 +39,10 @@ function App() {
             <Route path="/quotes" element={<Quotes />} />
             <Route path="/aboutme" element={<AboutMe />} />
             <Route path="/contact" element={<Contact />} />
+            
+            {/* 2. TAMBAHKAN RUTE BARU DI SINI */}
+            <Route path="/read/:bookName" element={<EbookReader />} />
+
           </Routes>
         )}
       </BrowserRouter>
