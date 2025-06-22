@@ -27,7 +27,7 @@ export default function BookCard(props) {
 
         {/* UBAH BAGIAN INI: Hapus <button> di dalam <Link> */}
         <Link to={`/read/${props.data.value}.epub`} className="card--btn read--btn">
-           Baca Online
+           Read
         </Link>
       </div>
 
